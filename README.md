@@ -5,6 +5,10 @@ This repository contains the official code of the paper published by IET Image P
 **Noise2Variance: Dual networks with variance constraint for self‐supervised real‐world image denoising** 
 \[[Paper PDF](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/ipr2.13170)\]
 
+**Highlights**: This study demonstrates that a straightforward loss design, concentrating on variance, can effectively train a standard CNN denoiser in a self-supervised fashion.
+
+![image](figs/Noise2Variance.png)
+
 Benchmark results of the paper are available at:
  + [DND Benchmark Results（sRGB）](https://noise.visinf.tu-darmstadt.de/benchmark/)
  + [SIDD Benchmark Results（sRGB）](http://130.63.97.225/sidd/bench_res_sRGB.html)
