@@ -36,6 +36,7 @@ To train and evaluate the model directly please visit [SIDD](https://www.eecs.yo
 
 You can now go to src folder and test our model by:
 ```
+cd src
 sh test.sh
 ```
 The pretrained model configuration and weight of SIDD validation dataset is located at `models/Noise2Variance/0320-121732`.
