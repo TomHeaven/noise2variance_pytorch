@@ -1,0 +1,11 @@
+data
+output
+log
+models
+src/logs
+
+# pycache
+**/__pycache__/**
+
+*.tar.gz
+src/*.log

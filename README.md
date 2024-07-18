@@ -1,17 +1,19 @@
 # Noise2Variance
 
-This repository contains the official code to reproduce the results from the paper:
+This repository contains the official code of the paper published by IET Image Processing:
 
-**Noise2Variance: Dual networks with variance constraint for self‐supervised real‐world image denoising**
+**Noise2Variance: Dual networks with variance constraint for self‐supervised real‐world image denoising** 
+\[[Paper PDF](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/ipr2.13170)\]
 
-\[[PDF](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/ipr2.13170)\]
+Benchmark results of the paper are available at:
+ + [DND Benchmark Results（sRGB）](https://noise.visinf.tu-darmstadt.de/benchmark/)
+ + [SIDD Benchmark Results（sRGB）](http://130.63.97.225/sidd/bench_res_sRGB.html)
 
 
 ## Installation
 Clone this repository into any place you want.
 ```
-git clone https://github.com/Reyhanehne/CVF-SID_PyTorch.git
-cd CVF-SID_PyTorch
+git clone https://github.com/TomHeaven/noise2variance_pytorch
 ```
 ### Dependencies
 * Python
@@ -51,3 +53,6 @@ If you use our paper or code, please cite the the paper:
   publisher={Wiley Online Library}
 }
 ```
+
+### Credits
++ Thanks for [CVF-SID](https://github.com/Reyhanehne/CVF-SID_PyTorch) to share code framework of the repo.
